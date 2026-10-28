@@ -1,0 +1,7 @@
+aiogram==3.31.0
+python-dotenv==1.2.4
+Pillow==12.3.0
+gTTS==2.5.4
+openai==2.54.0
+tzdata==2026.5
+imageio-ffmpeg==0.6.0

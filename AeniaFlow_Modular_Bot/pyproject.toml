@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--basetemp=../.pytest-tmp"
+cache_dir = "../.pytest-cache"
+
+[tool.black]
+target-version = ["py311"]
+line-length = 110
